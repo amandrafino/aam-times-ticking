@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Image Capture: camera</title>
+</head>
+
+<body>
+  <nav class="navigation">
+    <ul class="main-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="current" href="camera.html">Camera</a></li>
+      <li><a href="forms.html">Forms</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+
+  <section id="camera">
+    <div class="wrapper">
+      <div class="booth">
+        <video id="player" class="myplayer" controls autoplay></video>
+        <button id="capture" class="btn">Capture</button>
+        <canvas id="canvas" class="mycanvas"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/capture.js"></script>
+</body>
+
+</html>
